@@ -9,7 +9,7 @@ chai.use(chaiMatch);
 chai.use(chaiHttp);
 
 const projects = [
-  'first_app',
+  'hackathon',
   'change_calculator',
   'mortgage_calculator',
   'top_spots',
@@ -33,7 +33,7 @@ describe('Heroku Workshop', function() {
 
   describe('heroku apps', function() {
     projects.forEach((project) => {
-      this.timeout(15000);
+      this.timeout(45000);
       it(`${project} is deployed`, (done) => {
         chai
           .request(config[project])

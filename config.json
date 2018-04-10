@@ -1,7 +1,7 @@
 {
-  "first_app": "",
-  "change_calculator": "",
-  "mortgage_calculator": "",
-  "top_spots": "",
-  "vstda": ""
+  "hackathon": "https://yk-hackathon.herokuapp.com/",
+  "change_calculator": "https://yk-change-calculator.herokuapp.com/",
+  "mortgage_calculator": "https://yk-mortgage-calculator.herokuapp.com/",
+  "top_spots": "https://yk-san-diego-top-spots.herokuapp.com/",
+  "vstda": "https://yk-vstda.herokuapp.com/"
 }
